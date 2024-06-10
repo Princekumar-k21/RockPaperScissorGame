@@ -1,0 +1,98 @@
+
+body {
+    background-color: rgb(6, 19, 52);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+ img {
+   
+     width: 40px;
+    height: 40px;
+} 
+
+.reset {
+    background-color: black;
+    color: whitesmoke;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.object {
+   
+    background-color: rgb(47, 1, 51);
+    padding: 1.4rem;
+    border-radius: 50%;
+    margin: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.object:hover{
+    opacity: 0.8;
+    background-color: rgb(44, 2, 83);
+}
+
+.chosen {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: none;
+}
+
+.your-choice, .comp-choice {
+    margin-right: 20px;
+}
+
+.game-result {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.result {
+    color: white;
+    margin-top: 15px;
+    background-color: red;
+    padding: 0.7rem;
+    border-radius: 50px;
+    border: none;
+   
+}
+.result:hover{
+    opacity: 0.8;
+    box-shadow: 1px 1px 1px white;
+    cursor: pointer;
+}
+.reset-btn{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: none;
+   
+}
+.reset-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
